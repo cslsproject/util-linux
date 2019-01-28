@@ -1,0 +1,10 @@
+prefix=/root/util-linux
+exec_prefix=/root/util-linux
+libdir=/root/util-linux/lib
+includedir=/root/util-linux/include
+
+Name: smartcols
+Description: table or tree library
+Version: 2.32.1
+Cflags: -I${includedir}/libsmartcols
+Libs: -L${libdir} -lsmartcols
